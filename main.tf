@@ -4,7 +4,7 @@ resource "aws_instance" "myname" {
   tags = {
     Name = "ec2-cloud"
     Env = "development"
-proj = "projectA
+proj = "projectA"
   }
 }
 
